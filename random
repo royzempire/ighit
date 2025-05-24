@@ -27,9 +27,10 @@ print("___________________________________________\n"+logo+"\033[1;97m\n________
 
 
 
-print(f"\x1b[1;32mTELE ID : \x1b[1;33m")
-print(f"\x1b[1;32mTELE TOKEN : \x1b[1;33m")
+id = input("\x1b[1;32mTELE İD : \x1b[1;33m") 
 
+token = input("\x1b[1;32mTELE TOKEN : \x1b[1;33m")
+os.
 time.sleep(1)
 os.system("clear")
 hit_ig = 0
