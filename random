@@ -27,8 +27,8 @@ print("___________________________________________\n"+logo+"\033[1;97m\n________
 
 
 
-print(f"\x1b[1;32mTELE ID : \x1b[1;33m{id}")
-print(f"\x1b[1;32mTELE TOKEN : \x1b[1;33m{token}")
+print(f"\x1b[1;32mTELE ID : \x1b[1;33m")
+print(f"\x1b[1;32mTELE TOKEN : \x1b[1;33m")
 
 time.sleep(1)
 os.system("clear")
